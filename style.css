@@ -1,0 +1,79 @@
+*{
+    font-family: Cinzel;
+}
+body{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.nBYc8ESTBybOn73lGTbh9QHaEo&pid=Api&P=0&h=220);
+background-size: cover;
+}
+h3{
+    font-weight: bold;
+    padding-top: 100px;
+
+
+}
+#inp{
+    width: 215px;
+    height: 50px;
+    text-align: right;
+    box-shadow: inset rgb(0, 0, 0) 0 0 20px;
+    font-size: 30px;
+    font-family: Kanit;
+    font-weight:300;
+}
+#div{
+    background-image: url(https://th.bing.com/th/id/OIP.uKc0I5w_6DViDOEXv2akLAHaLH?rs=1&pid=ImgDetMain);
+    width: 250px;
+    border-radius: 20px;
+    height: 360px;
+    padding-top: 10%;
+    box-shadow: 0 0 20px;
+
+    
+    /* padding-bottom: 10%; */
+
+}
+#div1{
+    width: 100%;
+}
+.btn{
+    width: 50px;
+    height: 40px;
+    margin: 1px;
+    border-radius: 50px;
+    border-style:ridge;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px black;
+    
+}
+h3{
+    text-align: center;
+    margin-top: 10%;
+}
+#table{
+    margin-top: 10%;
+}
+
+#symbol{
+    background-color: rgb(207, 202, 200);
+    box-shadow: 0 0 10px black;
+    font-weight:500;
+    color: black;
+
+
+}
+
+@media screen and (max-width:400px){
+    #div{
+        width: 250px;
+        margin-left: -70px;
+      
+    }
+  
+    h3{
+        margin-left: -25px;
+        margin-top: 50px;
+    }
+    body{
+        height: 750px;
+    }
+}
